@@ -9,8 +9,18 @@ module.exports = {
     "./app.vue",
   ],
   theme: {
-    extend: {},
+    colors: {
+      red: "#FC4747",
+      white: "#FFF",
+      grey: {
+        300: "#5A698F",
+        600: "#161D2F",
+        900: "#10141E",
+      },
+    },
+    fontFamily: {
+      outfit: ["'Outfit'", 'sans-serif']
+    }
   },
   plugins: [],
-}
-
+};

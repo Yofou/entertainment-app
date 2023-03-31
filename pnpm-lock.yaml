@@ -1,10 +1,14 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@fontsource/outfit': ^4.5.11
   autoprefixer: ^10.4.14
   nuxt: ^3.3.2
   postcss: ^8.4.21
   tailwindcss: ^3.3.1
+
+dependencies:
+  '@fontsource/outfit': 4.5.11
 
 devDependencies:
   autoprefixer: 10.4.14_postcss@8.4.21
@@ -526,6 +530,10 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@fontsource/outfit/4.5.11:
+    resolution: {integrity: sha512-msPqJLLmSyWj/YtJknO75RjoTHIep6mDjnDO5IrZUJea31bO4s1QCuepG54LsmMXLKs+gp603nPM8/SUv5ZgSg==}
+    dev: false
 
   /@ioredis/commands/1.2.0:
     resolution: {integrity: sha512-Sx1pU8EM64o2BrqNpEO1CNLtKQwyhuXuqyfH7oGKCk+1a33d2r5saW8zNwm3j6BTExtjrv2BxTgzzkMwts6vGg==}

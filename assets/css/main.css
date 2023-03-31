@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .text-heading-l { 
+    @apply font-outfit text-[2rem] font-light;
+  }
+
+  .text-heading-m { 
+    @apply font-outfit text-[1.5rem] font-light;
+  }
+
+  .text-heading-s { 
+    @apply font-outfit text-[1.5rem] font-medium;
+  }
+
+  .text-heading-s { 
+    @apply font-outfit text-[1.125rem] font-medium;
+  }
+
+  .text-body-m {
+    @apply font-outfit text-[0.9375rem] font-light;
+  }
+
+  .text-body-s {
+    @apply font-outfit text-[0.8125rem] font-light;
+  }
+}

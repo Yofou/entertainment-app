@@ -1,4 +1,6 @@
 <template>
-  <div class="w-screen min-h-screen grid bg-red-500">
-  </div>
+  <NuxtLayout>
+    <h1 class="w-full font-outfit text-heading-m text-white font-medium">hello world</h1>
+    <Input />
+  </NuxtLayout>
 </template>
