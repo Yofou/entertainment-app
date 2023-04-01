@@ -4,4 +4,10 @@
 
 <script lang="ts" setup>
   const value = ref('')
+
+  onMounted(() => {
+    alert(
+      'hello world'  
+    )
+  })
 </script>
